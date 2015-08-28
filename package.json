@@ -2,12 +2,20 @@
   "name": "generator-nut",
   "version": "0.1.0",
   "description": "",
+  "license": "MIT",
+  "main": "app/index.js",
   "files": [
     "app",
     "crx",
     "web"
   ],
+  "repository": "nutteam/generator-nut",
   "keywords": ["yeoman-generator"],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "https://github.com/nutteam"
+  },
   "dependencies": {
     "yeoman-generator": "^0.20.2",
     "mkdirp": "^0.5.1"
