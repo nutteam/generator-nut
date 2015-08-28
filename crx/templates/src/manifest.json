@@ -1,0 +1,27 @@
+﻿{
+  "minimum_browser_version": "3.1.1644.10",
+  "minimum_chrome_version": "18",
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [{
+    "matches": ["http://*/*"],
+    "js": ["scripts/content.js"]
+  }],
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "web_accessible_resources": [],
+  "icons": {
+    "48": "images/icon48.png"
+  },
+  "browser_action": {
+    "default_title": "扩展名字",
+    "default_icon": "images/icon19.png",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "name": "扩展名字",
+  "description": "扩展描述，扩展描述，扩展描述。",
+  "permissions": ["tabs", "notifications", "contextMenus","webRequest", "webRequestBlocking", "http://*/*", "https://*/*"],
+  "version": "1.0.1"
+}

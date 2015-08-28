@@ -1,0 +1,15 @@
+{
+  "name": "generator-nut",
+  "version": "0.1.0",
+  "description": "",
+  "files": [
+    "app",
+    "crx",
+    "web"
+  ],
+  "keywords": ["yeoman-generator"],
+  "dependencies": {
+    "yeoman-generator": "^0.20.2",
+    "mkdirp": "^0.5.1"
+  }
+}

@@ -1,0 +1,2 @@
+var background = {};
+background.toString();
