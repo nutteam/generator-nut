@@ -49,7 +49,12 @@ module.exports = generators.Base.extend({
     }
   },
   install: function() {
-    
+    this.installDependencies({
+      npm: true,
+      bower: false,
+      skipInstall: true,
+      skipMessage: true
+    });
   },
   end: function() {
     
